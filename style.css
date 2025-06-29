@@ -71,6 +71,17 @@ article {
   border-top: 2px solid gray;
 }
 
+footer {
+  grid-column: 1 / -1;
+  border-top: 2px solid gray;
+  padding: 5px;
+  color: #d0d0d0;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (max-width: 430px) {
   body {
     grid-template-columns: auto;
@@ -88,3 +99,4 @@ article {
     margin: 0 10px;
   }
 }
+
