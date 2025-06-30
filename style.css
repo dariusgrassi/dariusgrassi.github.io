@@ -14,6 +14,22 @@ nav a {
   margin-left: 20px;
 }
 
+.projects-section {
+  clear: both;
+  margin-top: 20px;
+}
+
+.projects-section h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.me-picture {
+  float: right;
+  width: 130px;
+  margin-left: 20px;
+}
+
 body {
   color: #444;
 }
@@ -28,6 +44,46 @@ header {
 article {
   font-size: 16px;
 }
+
+.projects-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects-section li {
+  margin-bottom: 1em;
+}
+
+.projects-section li ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.projects-section li ul li {
+  margin-bottom: 0.5em;
+}
+
+.project-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: auto;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5em;
+}
+
+.project {
+  margin-bottom: 1.5em;
+}
+
 nav {
   font-size: 18px;
   letter-spacing: 1px;
@@ -41,6 +97,7 @@ h2 {
 
 a {
   color: #5b86f8;
+  text-decoration: none;
 }
 
 body {
@@ -69,6 +126,7 @@ nav a {
 article {
   grid-area: ct;
   border-top: 2px solid gray;
+  overflow: auto; /* Clear floats */
 }
 
 footer {
